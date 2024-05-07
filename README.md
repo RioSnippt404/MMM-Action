@@ -5,4 +5,5 @@ this can be use to send notification on click of button and it execute a shell s
 ---use cases ---
 It can be use to send notification to any module on click of button
 It can be used to execute any code on click of button
-
+![Button](https://github.com/RioSnippt404/MMM-Action/assets/161157125/f6a8106d-497c-4820-98b4-05dbbf040744)
+here is screenshot of click me button
