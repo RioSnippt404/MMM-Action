@@ -9,9 +9,9 @@ module.exports = NodeHelper.create({
 
   // Socket notification handler
   socketNotificationReceived: function(notification, payload) {
-    if (notification === "EXECUTE_PYTHON_CODE") {
+    if (notification === "EXECUTE_SHELL_CODE") {
       // Execute Python code
-      exec("c:\Users\SHUBHAM\OneDrive\Desktop\MagicMirror\modules\MMM-Action\hello.py", (error, stdout, stderr) => {
+      exec("/path/to/your/shell file", (error, stdout, stderr) => {
         if (error) {
           console.error(`Error executing Python code: ${error.message}`);
           return;
