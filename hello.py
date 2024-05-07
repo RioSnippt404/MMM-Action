@@ -11,5 +11,5 @@ def write_hello_to_file(file_path):
         print("Error:", e)
 
 # Example usage
-file_path = "/home/shubham/MagicMirror/modules/MMM-ProfileSwitcher/profile.txt"  # Replace this with the path to your file
+file_path = "path/to/your/own/pycode"  # Replace this with the path to your file
 write_hello_to_file(file_path)
