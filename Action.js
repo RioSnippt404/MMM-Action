@@ -9,7 +9,7 @@ Module.register("MMM-Action", {
         button.textContent = "Click Me"; // Set button text
         button.addEventListener("click", () => {
             // Send the "EXECUTE_PYTHON_CODE" socket notification when the button is clicked
-            this.sendSocketNotification("EXECUTE_PYTHON_CODE");
+            this.sendSocketNotification("EXECUTE_SHELL_CODE");
             // Delay sending "XDDD" notification by 20 seconds
             setTimeout(() => {
                 this.sendNotification("XDDD");
